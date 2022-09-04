@@ -27,7 +27,21 @@ div#header {
 	display:inline-block;
 }
 
+div#header-icon-text-container {
+	padding-left: 20px;
+	padding-top: 3px;
+	display:inline-block;
+	vertical-align: middle;
+}
 
+div#header-icon-container {
+	height:30px; 
+	width:30px;
+	display:inline-block;
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 10px;
+}
 
 div#header-text-container {
 	padding-left: 10px;
@@ -35,8 +49,8 @@ div#header-text-container {
 	display:inline;
 	color: white;
 	font-size: 20px;
-	margin: 6px;
-	vertical-align: baseline;
+	margin: 0px;
+	vertical-align: middle;
 	padding-top: 0px;
 }
 
