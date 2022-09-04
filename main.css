@@ -34,17 +34,8 @@ div#header-icon-text-container {
 	vertical-align: middle;
 }
 
-div#header-icon-container {
-	height:30px; 
-	width:30px;
-	display:inline-block;
-	vertical-align: middle;
-	background-color: white;
-	border-radius: 10px;
-}
-
 div#header-text-container {
-	padding-left: 10px;
+	padding-left: 00px;
 	height: 50px;
 	display:inline;
 	color: white;
