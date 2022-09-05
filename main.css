@@ -1,7 +1,10 @@
 /* Default css file for jemdoc. */
 
 body {
-	font-family: Georgia, serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+	 			 Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+				 Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+				 "Segoe UI Symbol";
 	padding: 0;
 	margin: 0;
 }
@@ -15,7 +18,7 @@ div#main-container {
 
 div#header-container {
 	width: 100%;
-	height: 50px;
+	height: 70px;
 }
 
 div#header {
@@ -37,7 +40,7 @@ div#header-icon-text-container {
 div#header-text-container {
 	padding-left: 00px;
 	height: 50px;
-	display:inline;
+	display:inline-box;
 	color: white;
 	font-size: 20px;
 	margin: 0px;
@@ -510,7 +513,7 @@ div#main{
 	margin: auto;
 	height:45px;
 	display:inline-block;
-	vertical-align: middle;
+	vertical-align: baseline;
 }
 
 .openbtn {

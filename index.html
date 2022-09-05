@@ -36,6 +36,8 @@ MathJax.Hub.Config({
 </div>
 </div>
 </div>
+<div id="fwtitle">
+</div>
 <div id="layout">
 <div id="layout-menu-container">
 <div id="layout-menu">
@@ -47,7 +49,7 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="pub.html">Publications</a></div>
 <div class="menu-item"><a href="proj-sdr.html">Signal&nbsp;Dimension&nbsp;Reduction</a></div>
 <div class="menu-item"><a href="proj-tensor.html">Tensor-Aided&nbsp;Multipath&nbsp;Estimation</a></div>
-<div class="menu-item"><a href="proj-smnr.html">Signal-Multiplexing&nbsp;Network&nbsp;Measuring</a></div>
+<div class="menu-item"><a href="proj-smnr.html">Signal-Multiplexing&nbsp;Network&nbsp;<br /> Measuring</a></div>
 </div> <!-- <div id="layout-menu"> -->
 </div> <!-- <div id="layout-menu-container"> -->
 <div id="layout-content-container">
@@ -59,11 +61,27 @@ MathJax.Hub.Config({
 <p>I am a Post-Doctoral Researcher at the Department of Electronic Engineering at Tsinghua University, adviced by Professor <a href="http://oa.ee.tsinghua.edu.cn/~shenyuan/" target=&ldquo;blank&rdquo;>Yuan Shen</a> and Professor <a href="http://nicsefc.ee.tsinghua.edu.cn/" target=&ldquo;blank&rdquo;>Yu Wang</a>. I obtained my Ph.D. degree from Department of Electronic Engineering at Tsinghua University in 2021, adviced by Professor <a href="http://oa.ee.tsinghua.edu.cn/~shenyuan/" target=&ldquo;blank&rdquo;>Yuan Shen</a>. Prior to that, I received my B.E. degree in Information Engineering from Xidian University in 2016.</p>
 <p>My research interests include statistical inference, optimization, and information theory. Specifically, I am interested in the following topics: <i>signal processing, network localization, and multi-agent systems</i>.</p>
 </div> <!-- <div id="layout-content-container"> -->
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-0000000-0";
-urchinTracker();
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
 </script>
 </body>
 </html>
