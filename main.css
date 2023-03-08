@@ -18,7 +18,7 @@ div#main-container {
 
 div#header-container {
 	width: 100%;
-	height: 70px;
+	height: 50px;
 }
 
 div#header {
@@ -37,6 +37,13 @@ div#header-icon-text-container {
 	vertical-align: middle;
 }
 
+div#header-icon-container {
+	height:00px; width:00px;
+	display:inline-block;
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 10px;
+}
 
 div#header-text-container {
 	padding-left: 00px;
