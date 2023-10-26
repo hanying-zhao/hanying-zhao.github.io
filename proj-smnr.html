@@ -8,7 +8,7 @@
 <link rel="icon" href="./images/icon.png">
 <link rel="stylesheet" href="main.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<!--- <title>Signal-Multiplexing Network Measuring</title> --->
+<!--- <title>L-SMNR</title> --->
 <title>Hanying Zhao</title>
 <!-- MathJax -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
@@ -47,31 +47,36 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
 <div class="menu-category">Research</div>
 <div class="menu-item"><a href="pub.html">Interests</a></div>
-<div class="menu-item"><a href="proj-sdr.html">Signal&nbsp;Dimension&nbsp;Reduciton</a></div>
-<div class="menu-item"><a href="proj-tensor.html">Tensor-Aided&nbsp;Multipath&nbsp;Estimation</a></div>
-<div class="menu-item"><a href="proj-smnr.html" class="current">Signal-Multiplexing&nbsp;Network&nbsp;Measuring</a></div>
+<div class="menu-item"><a href="proj-smnr.html" class="current">Multi-agent&nbsp;Localization</a></div>
+<div class="menu-item"><a href="proj-sdr.html">Signal&nbsp;Dimension&nbsp;Reduction</a></div>
+<div class="menu-item"><a href="proj-tensor.html">Multipath&nbsp;Estimation</a></div>
 </div> <!-- <div id="layout-menu"> -->
 </div> <!-- <div id="layout-menu-container"> -->
 <div id="layout-content-container">
 <div id="layout-content">
 <div id="toptitle">
-<h1>Signal-Multiplexing Network Measuring</h1>
-<div id="subtitle"><i>An efficient wireless measuring scheme for multi-agent systems</i></div>
+<h1>L-SMNR</h1>
+<div id="subtitle"><i>A flexible, scalable, and accurate localization scheme for multi-agent systems</i></div>
 </div>
 <h2>Abstract</h2>
 <div id="text-img-container"><div id="img-container">
-<img src="./images/large-scale.png" alt="" width="300px" /></div>
-<div id="text-container"><p>The Internet of Things (IoT) is envisioned to significantly change the way we live and work, in which thousands of intelligent computers, devices, sensors, and objects interconnect for the foreseeable future. Real-time high-precision localization is a core technology of such cyber-physical systems, whereas the popular GPS systems always fail, especially in indoor environments. Network localization owns the merits of low-cost and flexible coverage and is a promising alternative. We present a new distributed network localization paradigm, which achieves the optimal accuracy within a minimum of signals.</p>
+<img src="./images/large-scale.png" alt="" width="0px" /></div>
+<div id="text-container"><p>L-SMNR is designed to provide flexible, scalable, and accurate location-awareness for multi-agent systems. This method proposes 4-element stereo arrays, enabling pairwise relative localization without relying on external infrastructures. Beyond hardware design, L-SMNR optimizes the wireless protocol to ensure scalability and timeliness for accommodating larger swarm sizes, and incorporates advanced signal processing methods to acquire high-accuracy position estimations from received signals. Our scheme is poised to serve as the foundational infrastructure for intelligent multi-agent systems, empowering agents with reliable position-awareness to  navigate safely, accomplish complex tasks, and make significant contributions across diverse domains, including industrial automation, exploration, healthcare, and transportation.</p>
 </div></div>
 <h2>Highlights</h2>
+<iframe width="850" height="300" src="./images/L-SMNR.mp4" frameborder="0" allowfullscreen></iframe>
 <ul>
-<li><p>Devise a <b>signal-multiplexing network measuring scheme</b> for positioning and clock synchronization, which incorporates a novel measuring protocol to maximize the measuring update rates and maximum-likelihood range estimations to mitigate the coupling effects of clock drifts and mobility.</p>
+<li><p>Devise a <b>signal-multiplexing network ranging scheme</b> for positioning and clock synchronization, which incorporates a novel measuring protocol to maximize the measuring update rates and maximum-likelihood range estimations to mitigate the coupling effects of clock errors and node mobility.</p>
+</li>
+<li><p>Propose novel calibration methods to correct ranging and bearing errors, which are adaptable to different estimation methods, and require minimal manual calibration.</p>
 </li>
 <li><p>Develop a relative localization algorithm that leverages intra- and inter-node cooperation with coordinate reference alignment to reconstruct the geometric relationships among the nodes.</p>
 </li>
 </ul>
 <h2>Papers</h2>
 <ol>
+<li><p>“L-SMNR: A flexible, scalable, and accurate localization scheme for multi-agent systems” (in preparation) </p>
+</li>
 <li><p>Z. Zhang\(^\dagger\), <b>H. Zhao</b>\(^\dagger\), J. Wang, and Y. Shen, “Signal-multiplexing ranging for network localization,” <i>IEEE Trans. Wireless Commun.</i>, vol. 21, no. 3, pp. 1694–1709, Mar. 2022. (\(^\dagger\) equal contribution) </p>
 </li>
 <li><p><b>H. Zhao</b>, Z. Zhang, Z. Zhang, and Y. Shen, &ldquo;A signal-multiplexing ranging scheme for integrated localization and sensing,&rdquo; <i>IEEE Wireless Commun. Lett.</i>, vol. 11, no. 8, pp. 1609-1613, Aug. 2022.</p>
